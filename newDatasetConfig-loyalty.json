@@ -1,0 +1,142 @@
+{
+"DatasetID": "LCRCAFPI",
+"Location": "us",
+"Tables": [
+{
+"TableID": "BSKT_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/BSKT_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "BSKT_ITM_LC_DST",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/BSKT_ITM_LC_DST/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "BSKT_ITM_LC_DST_10PCT",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/BSKT_ITM_LC_DST_10PCT/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "DUAL",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/DUAL/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "LC_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/LC_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "POD_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/POD_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRDC_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/PRDC_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRD_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/PRD_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRD_RLTD",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/PRD_RLTD/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRD_TOT_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/PRD_TOT_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PREV_PRD_RLTD",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/PREV_PRD_RLTD/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PROMO_WEEK_SBST",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/PROMO_WEEK_SBST/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "SGMT_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/SGMT_DIM/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "SGMT_RLTD",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/SGMT_RLTD/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "SGMT_DIM_ATTRBT_LOV",
+"TableSource": "gs://pdm-pqm-testbucket/LCRCAFPI/SGMT_DIM_ATTRBT_LOV/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+}
+],
+"Views": null
+}

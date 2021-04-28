@@ -1,0 +1,19 @@
+{
+    "DatasetID": "TYPE_OVERRIDE_TEST",
+    "Location": "us",
+    "Tables": [
+        {
+            "TableID": "CSL_HRCH_20201226_PARTITION",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_HRCH_20201226/*.parquet",
+            "ClusterKeys": [
+                "CSL_KEY",
+                "CSL_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        }
+    ],
+    "Views": null
+}

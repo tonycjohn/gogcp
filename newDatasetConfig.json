@@ -1,0 +1,16 @@
+{
+    "DatasetID": "hive_partition",
+    "Location": "us",
+    "Tables": [
+        {
+            "TableID": "TRAG_AGGREGATED_DATA",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/trag_aggregated_data/*",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        }
+    ],
+    "Views": null
+}

@@ -1,0 +1,143 @@
+{
+"DatasetID": "CSKEL1122PI_PROD",
+"Location": "us",
+"Tables": [
+{
+"TableID": "DIM_CHR_MV_CNFG",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/DIM_CHR_MV_CNFG/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "FACT_THRESH_V",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/FACT_THRESH_V/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "FCTDIM_DMY",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/FCTDIM_DMY/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "FCT_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/FCT_DIM/*.parquet",
+"ClusterKeys": [
+"FCT_KEY"
+],
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "LRTA_RLTD",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/LRTA_RLTD/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "MRKTDIM_DMY",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/MRKTDIM_DMY/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "MRKT_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/MRKT_DIM/*.parquet",
+"ClusterKeys": [
+"MRKT_KEY"
+],
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRDCDIM_DMY",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/PRDCDIM_DMY/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRDC_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/PRDC_DIM/*.parquet",
+"ClusterKeys": [
+"PRDC_KEY"
+],
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRDDIM_DMY",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/PRDDIM_DMY/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "PRD_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/PRD_DIM/*.parquet",
+"ClusterKeys": [
+"PRD_KEY"
+],
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "SBTTLRLTD",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/SBTTLRLTD/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "STRDIM_DMY",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/STRDIM_DMY/*.parquet",
+"ClusterKeys": null,
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+},
+{
+"TableID": "STR_DIM",
+"TableSource": "gs://pdm-pqm-testbucket/CSKEL1122PI_PROD/STR_DIM/*.parquet",
+"ClusterKeys": [
+"POD_ID"
+],
+"PartitionKey": "",
+"PartitionRangeStart": 0,
+"PartitionRangeEnd": 0,
+"PartitionInterval": 0
+}
+],
+"Views": null
+}

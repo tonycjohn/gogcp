@@ -1,0 +1,124 @@
+{
+    "DatasetID": "RMS_9000_PREAGG_US_240_UAT_20210302",
+    "Location": "us",
+    "Tables": [
+        {
+            "TableID": "FCT_DIM",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/FCT_DIM/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_DIM",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/MRKT_DIM/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "PRDC_DIM",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/PRDC_DIM/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "PRD_DIM",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/PRD_DIM/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "PRD_DIM_PREV",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/PRD_DIM_PREV/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "PRD_DIM_TMP",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/PRD_DIM_TMP/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "fg_prdc_dim_dedupe_tbl",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/fg_prdc_dim_dedupe_tbl/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "fg_prdc_dim_facts",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/fg_prdc_dim_facts/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "fg_prdc_dim_final_output",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/fg_prdc_dim_final_output/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "fg_prdc_dim_initial_output",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/fg_prdc_dim_initial_output/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "fg_prdc_dim_m2o_o2o_char_mapping",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/fg_prdc_dim_m2o_o2o_char_mapping/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "TRAG_UNIVERSE_DATA",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/trag_universe_data/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "TRDS_FACTORY_DATA_SCOPE",
+            "TableSource": "gs://nlsn-dataproc-createdb/hive-warehouse/pqm/RMS_9000_PREAGG_US_240_UAT_20210302.db/trds_factory_data_scope/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        }
+    ],
+    "Views": null
+}
